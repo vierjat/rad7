@@ -3,6 +3,7 @@ import serial
 import sys
 
 # I crated a mock
+# And made more changes
 
 
 # configure the serial connections
@@ -26,7 +27,7 @@ while ser.inWaiting() > 0:
 
 time.sleep(1)
 
-
+print ' '
 print 'Enter your commands below.\r\nInsert "exit" to leave the application.'
 print ' '
 

@@ -67,6 +67,7 @@ while 1 :
     else:
         # send the character to the device
         # (note that I happend a \r\n carriage return and line feed to the characters - this is requested by my device)
+	print ' '
         ser.write(input + '\r\n')
         out = ''
         # let's wait one second before reading output (let's give device time to answer)

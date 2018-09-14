@@ -2,9 +2,7 @@ import time
 import serial
 import sys
 
-# I crated a mock
-
-
+# This is just s test
 # configure the serial connections
 ser = serial.Serial(
     #serial port data
@@ -28,7 +26,6 @@ time.sleep(1)
 
 
 print 'Enter your commands below.\r\nInsert "exit" to leave the application.'
-print ' '
 
 input=1
 while 1 :

@@ -4,6 +4,7 @@ import sys
 
 # configure the serial connections
 ser = serial.Serial(
+    #serial port data
     port='/dev/ttyUSB0',
     baudrate=19200,
     parity=serial.PARITY_NONE,

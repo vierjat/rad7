@@ -2,7 +2,7 @@ import time
 import serial
 import sys
 
-# This is just another test
+# This is just s test
 # configure the serial connections
 ser = serial.Serial(
     #serial port data

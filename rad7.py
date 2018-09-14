@@ -2,6 +2,9 @@ import time
 import serial
 import sys
 
+#this program talks with rad7
+
+
 # configure the serial connections
 ser = serial.Serial(
     #serial port data

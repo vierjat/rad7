@@ -24,6 +24,7 @@ time.sleep(1)
 
 
 print 'Enter your commands below.\r\nInsert "exit" to leave the application.'
+print '==========='
 
 input=1
 while 1 :
